@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Jersey Shop</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f5f5f5;
+        }
+
+        header{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:#222;
+            text-align:center;
+            padding:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-size:18px;
+        }
+
+        .hero{
+            text-align:center;
+            padding:60px;
+            background:white;
+        }
+
+        .hero h1{
+            font-size:45px;
+            margin-bottom:10px;
+        }
+
+        .products{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+            padding:40px;
+        }
+
+        .product{
+            background:white;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,.1);
+            text-align:center;
+            padding:20px;
+        }
+
+        .product img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+            border-radius:10px;
+        }
+
+        .product h3{
+            margin:15px 0;
+        }
+
+        .price{
+            color:green;
+            font-size:22px
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f5f5f5;
+        }
+
+        header{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:#222;
+            text-align:center;
+            padding:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-size:18px;
+        }
+
+        .hero{
+            text-align:center;
+            padding:60px;
+            background:white;
+        }
+
+        .hero h1{
+            font-size:45px;
+            margin-bottom:10px;
+        }
+
+        .products{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+            padding:40px;
+        }
+
+        .product{
+            background:white;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,.1);
+            text-align:center;
+            padding:20px;
+        }
+
+        .product img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+            border-radius:10px;
+        }
+
+        .product h3{
+            margin:15px 0;
+        }
+
+        .price{
+            color:green;
+            font-size:22px;
+            margin-bottom:10px;
+        }
+
+        button{
+            background:#28a745;
+            color:white;
+            border:none;
+            padding:12px 20px;
+            border-radius:5px;
+            cursor:pointer;
+            margin:5px;
+        }
+
+        button:hover{
+            background:#71c2e4;
+        }
+
+        footer{
+            
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>My Jersey Shop</h1>
+    <p>Football Jerseys & Boots Available</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Jerseys</a>
+    <a href="#">Boots</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome To My Shop</h1>
+    <p>Buy Original Football Jerseys & Boots</p>
+</section>
+
+<section class="products">
+
+    <div class="product">
+        <img src="images/barcelona.jpg.jpg" alt="">
+        <h3>Barcelona Jersey</h3>
+        <p class="price">1200 TK</p>
+
+        <button onclick="addCart()">
+            Add To Cart
+        </button>
+
+        <a href="https://wa.me/8801627376270">
+            <button>Order WhatsApp</button>
+        </a>
+    </div>
+
+
+    <div class="product">
+        <img src="images/barcelona.jpg" alt="">
+        <h3>Barcelona Jersey</h3>
+        <p class="price">1300 TK</p>
+
+        <button onclick="addCart()">
+            Add To Cart
+        </button>
+
+        <a href="https://wa.me/8801627376270">
+            <button>Order WhatsApp</button>
+        </a>
+    </div>
+
+
+    <div class="product">
+        
